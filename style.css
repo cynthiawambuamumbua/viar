@@ -1,0 +1,47 @@
+.content{
+    background-color:burlywood;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 10px;
+}
+nav ul li a{
+    color: blue;
+    font-size: large;
+    font-weight: 400px;
+}
+h1{
+    color: crimson;
+    font-size: 80px;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: crimson;
+    padding: 20px 20px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.text{
+    background-color: aqua;
+}
+h2 {
+    font-weight: 100px;
+    color: brown;
+}
+img{
+    height: 500px;
+    size: 50px;
+    position: top;
+}
